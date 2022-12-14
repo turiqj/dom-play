@@ -1,31 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
  <head>
-     <title>Project Name</title>
+     <title>DOM Play</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/nav.css">
   <link rel="stylesheet" href="css/forms.css">
+  <style>
+    .hamlet {
+      /*background-color:yellow */
+    }
+
+    #play span{
+      /* background-color:green;*/
+    }
+
+  </style>
  </head>
  <body>
      <header>
-     <h1 class="page-header">Site Name</h1>
+     <h1 class="page-header">DOM-PLAY</h1>
         <nav class="topnav" id="myTopnav">
             <a href="index.html" class="active">Home</a>
-            <a href="#">Link</a>
-            <a href="#">Link</a>
-            <a href="#">Link</a>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
         </nav>
      </header>
      
    <main class="wrapper">
-       <h2 class="subheader">Project Name</h2>
-      <p>Clever content goes here</p>
-      <p>Clever content goes here</p>
-      <p>Clever content goes here</p> 
-       
+       <h2 class="subheader">DOM Play</h2>
+      
+        <div id="play">
+       <p><span data-actor="spiderman">Spiderman: Watch out Hulk! Dr Doom is behind you!</span></p>
+       <p><span data-actor="hulk">Hulk: Tiny human...Hulk is the strongest!</span></p>
+       <p><span data-actor="thor">Thor: We have to fight until the end!</span></p>
+       <p><span data-actor="spiderman">Spiderman: I'll wrap him with webs, Get him Hulk!</span></p>
+       <p><span data-actor="hulk">Hulk: HULK SMASH!!</span></p>
+       <p><span data-actor="thor">Thor: The God of thunder never had a doubt with our plan.</span></p>
+        </div>
      <footer>
       <p><small>&copy; 2021-<span id="this-year"></span> by 
           Turiq Johnson, All Rights Reserved ~ 
